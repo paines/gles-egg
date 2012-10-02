@@ -1,0 +1,9 @@
+(
+(license "BSD")
+
+(category graphics)
+
+(needs srfi-4 srfi-69 srfi-18 lolevel )
+
+(author "Anes Lihovac")
+(synopsis "OpenGL ES 2.0"))
