@@ -2,7 +2,8 @@
 
 ;e.g. under debian testing "wheezy" you can pull libgles1-mesa
 
-(compile -s -O2 -d1 gles.scm -j gles -lGLESv1_CM -L/usr/lib/i386-linux-gnu)
+;(compile -s -O2 -d1 gles.scm -j gles -lGLESv1_CM -L/usr/lib/i386-linux-gnu)
+(compile -s -O2 -d1 gles.scm -j gles -lGLESv1_CM)
 (compile -s gles.import.scm -O2 -d0)
 ;(compile -c -O2 -d1 gles.scm -unit gles -j gles -lGLESv1_CM -L/usr/lib/i386-linux-gnu)
 ;
